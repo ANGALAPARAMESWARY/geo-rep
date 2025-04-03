@@ -1,0 +1,39 @@
+/* Styling for uploaded images */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Individual image card */
+.image-card {
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-card:hover {
+  transform: scale(1.05);
+}
+
+/* Uploaded image styling */
+.uploaded-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Information styling */
+.image-info {
+  font-size: 14px;
+  color: #333;
+  padding: 8px;
+  text-align: left;
+}
